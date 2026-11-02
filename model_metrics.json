@@ -1,0 +1,43 @@
+{
+  "test_accuracy": 0.9783,
+  "classification_report": {
+    "0": {
+      "precision": 0.9525027402265254,
+      "recall": 1.0,
+      "f1-score": 0.9756736526946108,
+      "support": 2607.0
+    },
+    "1": {
+      "precision": 1.0,
+      "recall": 0.9616858237547893,
+      "f1-score": 0.98046875,
+      "support": 3393.0
+    },
+    "accuracy": 0.9783333333333334,
+    "macro avg": {
+      "precision": 0.9762513701132627,
+      "recall": 0.9808429118773947,
+      "f1-score": 0.9780712013473054,
+      "support": 6000.0
+    },
+    "weighted avg": {
+      "precision": 0.9793624406284253,
+      "recall": 0.9783333333333334,
+      "f1-score": 0.9783852802208085,
+      "support": 6000.0
+    }
+  },
+  "features": [
+    "Age",
+    "Annual_Income",
+    "Credit_Score",
+    "Debt_to_Income_Ratio",
+    "Loan_Amount",
+    "Loan_Term_Months",
+    "Past_Loans",
+    "Defaults"
+  ],
+  "target": "Risk_Flag",
+  "training_rows": 24000,
+  "testing_rows": 6000
+}
